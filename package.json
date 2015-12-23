@@ -1,0 +1,23 @@
+
+{
+	"name": "enable-clipboard-helper",
+	"main": "./main/main.js",
+	"description": "Some packages needs this package to enable clipboard features",
+	"keywords": [
+		"helper",
+		"copy",
+		"package-clipboard",
+		"enable-copy",
+		"text-copiable",
+		"enable-clipboard-helper"
+	],
+	"activationCommands": {
+		".enable-clipboard-helper .text-copiable:not(.disable-clipboard-helper)": "package-clipboard-helper:copy-selection"
+	},
+	"repository": "https://github.com/ksxatompackages/enable-clipboard-helper",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.2.0 <2.0.0"
+	},
+	"dependencies": {}
+}

@@ -1,0 +1,8 @@
+
+'context-menu':
+	'.enable-clipboard-helper .text-copiable:not(.disable-context-menu):not(.disable-clipboard-helper-menu):not(.disable-clipboard-helper)': [
+		{
+			label: 'Copy'
+			command: 'package-clipboard-helper:copy-selection'
+		}
+	]

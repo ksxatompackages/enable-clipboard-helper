@@ -1,0 +1,3 @@
+
+'.enable-clipboard-helper .text-copiable:not(.disable-keymaps):not(.disable-clipboard-helper-keymaps):not(.disable-clipboard-helper)':
+	'ctrl-c': 'package-clipboard-helper:copy-selection'
